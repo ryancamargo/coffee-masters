@@ -43,9 +43,28 @@ body {
 
 .box {
     background-color: #eee1d5;
-    border-radius: 5px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+    
+    border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
     width: 100%;
+}
+
+.box-title {
+    color: #885a2d;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.order {
+    grid-area: order;
+}
+
+.payment {
+    grid-area: payment;
+}
+
+.total {
+    grid-area: total;
 }
