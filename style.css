@@ -106,3 +106,33 @@ body {
     grid-area: price;
     font-weight: bold;
 }
+
+.item-options-list {
+    grid-area: options;
+
+    color: #B08968;
+    list-style: none;
+    font-size: 14px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.item-option {
+    margin-bottom: 5px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.user-input {
+    background-color: rgba(0,0,0,0);
+    border: 2px #885a2d solid;
+    padding: 8px;
+    border-radius: 100px;
+    width: 100%;
+    text-indent: 18px;
+    font-size: 18px;
+}
