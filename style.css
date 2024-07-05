@@ -88,3 +88,21 @@ body {
 
     row-gap: 8px;
 }
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item-quantity {
+    grid-area: quantity;
+}
+
+.item-title {
+    grid-area: title;
+    font-weight: bold;
+}
+
+.item-price {
+    grid-area: price;
+    font-weight: bold;
+}
