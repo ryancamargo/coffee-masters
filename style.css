@@ -136,3 +136,13 @@ body {
     text-indent: 18px;
     font-size: 18px;
 }
+
+.user-input-label {
+    color: #885a2d;
+    background-color: #eee1d5;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+}
