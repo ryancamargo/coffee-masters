@@ -35,3 +35,8 @@ body {
     justify-content: center;
 }
 
+.logo {
+    height: 25px;
+    position: relative;
+    top: 3px;
+}
