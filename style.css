@@ -1,3 +1,18 @@
+:root{
+    --primary-color: #efefef;
+    --secundary-color: #fbf2c0;
+    --terciary-color: #43281c;
+    --quaternary-color: #eee1d5;
+    --fifth-color: #885a2d;
+    --sixth-color: #eee1d5;
+
+    --button-color: #deb993;
+    --hover-color: ;
+
+
+    --primary-font: 'Open Sans', sans-serif;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -6,9 +21,9 @@ body {
     margin: 0;
     padding: 0;
     
-    background-color: #efefef;
+    background-color: var(--primary-color);
     
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--primary-font);
 }
 
 .page {
@@ -25,8 +40,8 @@ body {
 }
 
 .main-nav {
-    background-color: #43281c;
-    color: #fbf2c0;
+    background-color: var(--terciary-color);
+    color: var(--secundary-color);
     font-size: 16px;
     font-weight: normal;
 
@@ -42,7 +57,7 @@ body {
 }
 
 .box {
-    background-color: #eee1d5;
+    background-color: var(--quaternary-color);
     box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
     
     border-radius: 5px;
@@ -52,7 +67,7 @@ body {
 }
 
 .box-title {
-    color: #885a2d;
+    color: var(--fifth-color);
     font-weight: normal;
     font-size: 16px;
 }
@@ -129,7 +144,7 @@ body {
 
 .user-input {
     background-color: rgba(0,0,0,0);
-    border: 2px #885a2d solid;
+    border: 2px var(--fifth-color) solid;
     padding: 8px;
     border-radius: 100px;
     width: 100%;
@@ -138,8 +153,8 @@ body {
 }
 
 .user-input-label {
-    color: #885a2d;
-    background-color: #eee1d5;
+    color: var(--fifth-color);
+    background-color: var(--sixth-color);
     font-size: 11px;
     position: absolute;
     left: 25px;
@@ -177,12 +192,18 @@ body {
 }
 
 .checkout {
-    background-color: #deb993;
+    background-color: var(--button-color);
     border: none;
     padding: 10px 30px;
     width: 100%;
     border-radius: 100px;
     font-size: 16px;
+}
+
+.checkout:hover {
+    background-color: var(--fifth-color);
+    font-weight: bold;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
