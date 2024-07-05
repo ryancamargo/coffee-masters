@@ -5,7 +5,9 @@
 body {
     margin: 0;
     padding: 0;
+    
     background-color: #efefef;
+    
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -26,5 +28,10 @@ body {
     background-color: #43281c;
     color: #fbf2c0;
     font-size: 16px;
-    
+    font-weight: normal;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
