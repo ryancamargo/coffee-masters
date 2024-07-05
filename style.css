@@ -68,3 +68,23 @@ body {
 .total {
     grid-area: total;
 }
+
+.items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    border-bottom: 2px solid #DDB892;
+    display: grid;
+
+    padding: 10px 0;
+
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-areas: 
+        "quantity title   price"
+        "quantity options price";
+
+    row-gap: 8px;
+}
